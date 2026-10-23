@@ -558,7 +558,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const maxVal = Math.max(...sorted.map(s => s[1]), 8);
 
       sorted.forEach(([name, count]) => {
-        const heightPct = Math.max(15, (count / maxVal) * 100);
+        const heightPct = Math.max(14, Math.round((count / maxVal) * 78));
         const col = document.createElement('div');
         col.className = 'activity-bar-col';
         col.innerHTML = `
@@ -572,8 +572,8 @@ document.addEventListener('DOMContentLoaded', () => {
       // By Source Type (Calls vs Meetings)
       const metrics = store.getMetrics();
       const items = [
-        { label: 'Telephony Calls', count: metrics.callsCount, pct: 100 },
-        { label: 'Calendar Meetings', count: metrics.meetingsCount, pct: (metrics.meetingsCount / metrics.callsCount) * 100 }
+        { label: 'Telephony Calls', count: metrics.callsCount, pct: 78 },
+        { label: 'Calendar Meetings', count: metrics.meetingsCount, pct: Math.round((metrics.meetingsCount / metrics.callsCount) * 78) }
       ];
 
       items.forEach(item => {
