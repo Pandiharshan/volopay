@@ -1,0 +1,56 @@
+<USER_REQUEST>
+i rate this one is 30 % to the actual work theme i need in 100% the existing is not good is only worked 30% of 100 % target 
+i dnt neeed the icon it look like ai slop and website itself is very boring design and not aligned properly 
+https://revenueforce.vercel.app/
+see this url how profeesional 
+i have uploded the image 
+ANTIGRAVITY OPUS — COMPLETE PROJECT IMPLEMENTATION MASTER PROMPT
+SIGNAL DESK | Premium Light Glassmorphism Revenue Intelligence Platform
+You are acting as a principal product designer, senior React engineer, frontend architect, data-visualisation specialist and quality-assurance engineer.
+Your mission is to take my existing Project 1 codebase and transform it into a complete, polished, professional Revenue Intelligence Inbox that looks and behaves like a carefully designed premium SaaS product.
+I am attaching ONE image only: the visual reference for the design theme I want.
+You must analyse that image yourself, identify its visual design language, and implement that design consistently across the entire application.
+Do not ask me to provide more design references. The attached image is sufficient for the visual direction. Inspect the existing codebase and assignment documents for the actual application requirements and source data.
+This is a real implementation task. Do not return another prompt, design proposal, static image, or mockup. Modify the existing project files, run the application, test it, fix defects, and deliver the finished implementation.
+PART 1 — UNDERSTAND THE REFERENCE IMAGE
+1.1 Treat the attached image as the single visual source of truth
+Before editing code, carefully inspect the uploaded reference image.
+Infer its:
+Overall visual atmosphere.
+Light background treatment.
+Frosted-glass material.
+Transparency and background blur.
+Surface borders and internal highlights.
+Shadow softness.
+Colour palette.
+Typography pairing and hierarchy.
+Card proportions and corner radii.
+Navigation styling.
+Input and dropdown appearance.
+Icon treatment.
+Spacing and alignment.
+
+<truncated 20178 bytes>
+the uploaded image and current project files.
+Build the design system first, then implement the app shell and all screens using that system. Preserve existing business logic throughout.
+Next, run the application, inspect the actual rendered result, correct visual inconsistencies, execute the functional tests, and prepare the final deliverable.
+Do not ask me to design each screen separately. Use the reference image as the single design direction and your professional judgment to extend it coherently across the entire application.
+Do not stop after giving me a plan or creating a visual mockup. Implement the real website, run the tests, fix the issues, and provide a factual final report explaining what was completed and what, if anything, remains unfinished.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-23T11:49:17+05:30.
+
+The user's current state is as follows:
+Active Document: c:\Users\shyam\Downloads\candidate-v1.0 (3)_layout_fixed (1)(2) (3)\01_Revenue_Intelligence_Inbox\scratch\check_conversations.py (LANGUAGE_PYTHON)
+Cursor is on line: 1
+Other open documents:
+- c:\Users\shyam\Downloads\candidate-v1.0 (3)_layout_fixed (1)(2) (3)\01_Revenue_Intelligence_Inbox\DEPLOYMENT.md (LANGUAGE_MARKDOWN)
+- c:\Users\shyam\Downloads\candidate-v1.0 (3)_layout_fixed (1)(2) (3)\01_Revenue_Intelligence_Inbox\scratch\check_conversations.py (LANGUAGE_PYTHON)
+- c:\Users\shyam\Downloads\candidate-v1.0 (3)_layout_fixed (1)(2) (3)\01_Revenue_Intelligence_Inbox\README.md (LANGUAGE_MARKDOWN)
+Browser State:
+  Page C80C1DBD558479E491D28DB1A9DA4593 (Signal Desk — Revenue Intelligence Inbox) - http://localhost:8080/app/index.html?v=3 [ACTIVE]
+    Viewport: 1366x679, Page Height: 3431
+</ADDITIONAL_METADATA>
+<USER_SETTINGS_CHANGE>
+The user changed setting `Model Selection` from Gemini 3.8 Flash (High) to Claude Opus 4.6 (Thinking). No need to comment on this change if the user doesn't ask about it. If reporting what model you are, please use a human readable name instead of the exact string.
+</USER_SETTINGS_CHANGE>

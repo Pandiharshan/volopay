@@ -1,0 +1,92 @@
+<USER_REQUEST>
+see the uploaded image that is the targeted theme i need to add overall the website but current existing website only 30% have been completed to the target theme 
+i need exxact image uploaded theme dicto a to z in my website glass morphism and minimalizim cobined i dnt need any emojis icon in my website understand 
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blueprint Notes</title>
+
+<!-- Google Fonts: Space Grotesk (headings) + JetBrains Mono (body) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --font-head: "Space Grotesk", system-ui, sans-serif;
+    --font-body: "JetBrains Mono", ui-monospace, monospace;
+    --bg: #EAF0F4;      /* Draft Sheet */
+    --ink: #1D3D8F;     /* Ink Blue */
+    --text: #1E2B48;
+    --accent: #B53A16;  /* Signal */
+    --grid: #D3DEE8;    /* Grid Line */
+    --white: #FFFFFF;   /* Tracing White */
+  }
+  body {
+    margin: 0;
+    font-family: var(--font-body);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--text);
+    background-color: var(--bg);
+    background-image:
+      linear-gradient(var(--grid) 1px, transparent 1px),
+      linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+  h1, h2, h3 {
+    font-family: var(--font-head);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.02;
+    color: var(--ink);
+    margin: 0 0 16px;
+  }
+  h1 { font-size: 72px; }
+  h2 { font-size: 40px; }
+  .label {
+    font-family: var(--font-body);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink);
+  }
+  .accent { color: var(
+<truncated 940 bytes>
+wap" rel="stylesheet">
+
+Then add this to your CSS:
+
+css
+h1, h2, h3 { font-family: "Space Grotesk", sans-serif; font-weight: 700; letter-spacing: -0.02em; }
+body       { font-family: "JetBrains Mono", monospace; font-weight: 400; }
+
+If you use CSS @import instead of the <link> tags, put this at the top of your CSS file:
+
+css
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@400;500;700&display=swap");
+
+To install them for Word or other desktop apps, go to fonts.google.com, search each name and click Get font, then Download all. Unzip the file and install the .ttf files: double-click and choose Install.
+
+For Claude Code, you can paste this prompt:
+
+Use Google Fonts in this project: Space Grotesk (weights 500, 700) for all headings, with letter-spacing -0.02em, and JetBrains Mono (weights 400, 500, 700) for body text, labels and numbers. Load them with the Google Fonts <link> tag using display=swap, and set font-family fallbacks to sans-serif and monospace. Don’t use any other fonts.
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-23T12:20:07+05:30.
+
+The user's current state is as follows:
+Active Document: c:\Users\shyam\Downloads\candidate-v1.0 (3)_layout_fixed (1)(2) (3)\01_Revenue_Intelligence_Inbox\scratch\check_conversations.py (LANGUAGE_PYTHON)
+Cursor is on line: 1
+Other open documents:
+- c:\Users\shyam\Downloads\candidate-v1.0 (3)_layout_fixed (1)(2) (3)\01_Revenue_Intelligence_Inbox\DEPLOYMENT.md (LANGUAGE_MARKDOWN)
+- c:\Users\shyam\Downloads\candidate-v1.0 (3)_layout_fixed (1)(2) (3)\01_Revenue_Intelligence_Inbox\scratch\check_conversations.py (LANGUAGE_PYTHON)
+- c:\Users\shyam\Downloads\candidate-v1.0 (3)_layout_fixed (1)(2) (3)\01_Revenue_Intelligence_Inbox\README.md (LANGUAGE_MARKDOWN)
+Browser State:
+  Page C80C1DBD558479E491D28DB1A9DA4593 (Signal Desk — Revenue Intelligence Inbox) - http://localhost:8080/app/index.html?nocache=1 [ACTIVE]
+    Viewport: 1366x679, Page Height: 1086
+</ADDITIONAL_METADATA>

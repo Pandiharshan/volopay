@@ -1,0 +1,16 @@
+{
+  "name": "volopay-frontend",
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/app/index.html",
+      "permanent": false
+    },
+    {
+      "source": "/app",
+      "destination": "/app/index.html",
+      "permanent": false
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "volopay-frontend",
+  "version": "1.0.0",
+  "description": "Volopay Frontend — Signal Desk Revenue Intelligence Inbox",
+  "main": "app/index.html",
+  "scripts": {
+    "start": "python -m http.server 8080",
+    "test": "node scripts/run_automated_tests.js",
+    "build:exports": "node scripts/generate_exports.js",
+    "build:slides": "node scripts/generate_presentation.js",
+    "build:zip": "python scratch/create_submission_zip.py"
+  },
+  "keywords": [
+    "revenue-intelligence",
+    "sales-inbox",
+    "evidence-based-routing",
+    "volopay-assessment"
+  ],
+  "author": "Antigravity Senior Full-Stack & AI Systems Engineer",
+  "license": "UNLICENSED",
+  "private": true
+}

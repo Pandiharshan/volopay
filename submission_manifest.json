@@ -1,0 +1,61 @@
+{
+  "submission_metadata": {
+    "project_name": "Signal Desk — Revenue Intelligence Inbox",
+    "assignment_part": "Part 1 (Revenue Intelligence Inbox)",
+    "submission_deadline": "2026-10-23T15:00:00+05:30",
+    "completed_at": "2026-10-23T11:15:00+05:30",
+    "operating_dataset_date": "2026-08-21",
+    "operating_dataset_timezone": "Asia/Kolkata",
+    "approximate_hours_spent": "7.0 hours",
+    "lead_developer_and_analyst": "Antigravity Senior Full-Stack & AI Systems Engineer"
+  },
+  "verified_baseline_metrics": {
+    "total_unique_records": 44,
+    "source_type_calls": 30,
+    "source_type_meetings": 14,
+    "initial_usable_transcripts": 17,
+    "post_update_usable_transcripts": 18,
+    "transcript_coverage_percentage": "40.9%",
+    "records_without_usable_text": 26,
+    "multi_destination_export_files_generated": 66
+  },
+  "deliverables": {
+    "assignment_reading_pack": "index.html",
+    "application_source_directory": "app/",
+    "application_entry_point": "app/index.html",
+    "application_stylesheet": "app/style.css",
+    "application_controller": "app/app.js",
+    "application_data_store": "app/data_store.js",
+    "application_analyses_data": "app/analyses_data.js",
+    "application_source_data_bundle": "app/source_data.js",
+    "export_manifest": "exports/manifest.json",
+    "manager_brief_markdown": "exports/manager-brief-2026-08-21.md",
+    "export_routes_directory": "exports/routes/",
+    "powerpoint_presentation_canonical": "slides/Revenue_Intelligence_Findings.pptx",
+    "powerpoint_presentation_alias": "slides/Signal_Desk_Revenue_Intelligence.pptx",
+    "presentation_transcript": "slides/presentation_transcript.md",
+    "three_minute_narration_script_canonical": "scripts/three_minute_demo.md",
+    "three_minute_narration_script_alias": "scripts/narration_script_3min.md",
+    "automated_test_suite": "scripts/run_automated_tests.js",
+    "export_generator": "scripts/generate_exports.js",
+    "presentation_generator": "scripts/generate_presentation.js",
+    "deployment_guide": "DEPLOYMENT.md",
+    "test_execution_report": "TEST_REPORT.md",
+    "product_readme": "README.md",
+    "submission_archive": "Signal_Desk_Submission.zip"
+  },
+  "contract_replay_test_results": {
+    "test_1_initial_import": "PASS (44 records, 17 usable texts)",
+    "test_2_repeat_import": "PASS (Idempotent: 44 records maintained, 0 duplicates)",
+    "test_3_manual_override": "PASS (M07 route changed to product-support with visible tag)",
+    "test_4_update_import": "PASS (Revision 2 applied, M07 late transcript arrives, 18 texts, 40.9% coverage)",
+    "test_5_replay_initial_batch": "PASS (Older Rev 1 rejected, M07 stays Rev 2, count remains 44, usable texts remain 18, manual route remains in effect)",
+    "test_6_persistence": "PASS (Complete state serialized to localStorage and reloaded on reboot)"
+  },
+  "quality_assurance_summary": {
+    "automated_assertions_passed": 28,
+    "automated_assertions_failed": 0,
+    "manifest_output_paths_missing": 0,
+    "browser_console_errors": 0
+  }
+}
